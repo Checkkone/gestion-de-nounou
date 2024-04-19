@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mon Profil</title>
+  <link rel="stylesheet" href="connexion.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Bienvenue, <span id="prenom"></span> !</h1>
+    <p>Merci d'avoir créé un compte sur notre site.</p>
+    <div class="profil-info">
+      <h2>Votre Profil</h2>
+      <p><strong>Nom :</strong> <span id="nom"></span></p>
+      <p><strong>Email :</strong> <span id="email"></span></p>
+    </div>
+    <button onclick="window.location.href='nounou.html'">Suivant</button>
+  </div>
+
+  <script>
+    // Récupérez les informations de l'utilisateur depuis votre backend (par exemple, via une API)
+    const prenom = "cheick"; // Remplacez par le prénom de l'utilisateur
+    const nom = "kone"; // Remplacez par le nom de l'utilisateur
+    const email = "cheickkone@gmail.com"; // Remplacez par l'email de l'utilisateur
+
+    // Mettez à jour les éléments HTML avec les informations de l'utilisateur
+    document.getElementById("prenom").textContent = prenom;
+    document.getElementById("nom").textContent = nom;
+    document.getElementById("email").textContent = email;
+  </script>
+</body>
+</html>

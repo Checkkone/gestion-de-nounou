@@ -1,0 +1,60 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 100%; 
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Titre */
+h1 {
+  font-size: 24px;
+  color: #007bff; /* Bleu */
+}
+
+/* Informations du profil */
+.profil-info {
+  margin-top: 20px;
+}
+
+.profil-info h2 {
+  font-size: 18px;
+  color: #555;
+}
+
+.profil-info p {
+  font-size: 14px;
+  color: #333; /* Bleu foncé */
+  margin-bottom: 10px;
+}
+
+/* Bouton */
+button {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3; /* Bleu plus foncé au survol */
+}
+
+/* Réglages responsives */
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 10px;
+  }
+}

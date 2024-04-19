@@ -1,0 +1,28 @@
+/* Style pour le carré de chaque nounou */
+.nounou {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 10px; 
+  margin: 5px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+/* Style pour le titre de la nounou */
+.nounou h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Style pour les informations de la nounou */
+.nounou p {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.nounou img {
+  max-width: 50%;
+  height: min-content;
+  border-radius: 5px;
+  margin-top: 5px;
+}
